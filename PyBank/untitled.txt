@@ -1,0 +1,23 @@
+#print(change)
+#avg_change = change / (total_month -1)
+#print(avg_change)
+#print(sum(change)
+  # print("The average coffee order price today is $" + str(round(average, 2)))   
+      
+      
+      data.append(row)
+      row1 = next(csvreader)
+   total_month = total_month +1
+    total_pl = total_pl + int(row[1])
+    prev_pl = int(row[1])
+  
+  
+  total_month = total_month +1 
+        total_pl = total_pl + int(row[1])
+        #print(total_pl)
+        change = (int(row[1]) - prev_pl)
+        #print(change)
+        avg_change = (int(row[1]) - prev_pl) / total_month
+        #print(avg_change)
+        prev_pl = int(row[1])
+  
